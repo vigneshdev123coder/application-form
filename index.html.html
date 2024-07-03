@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            background-color: blue;
+        }
+         [for="last name"]{
+            margin-left: 80px;
+            
+         }
+         [for="email"]{
+            margin-left: 50px;
+         }
+         [for="qualification"]{
+            margin-left: 140px;
+             }
+        .label{
+            font-size: 20px;
+         }
+         .vignesh{
+            position: relative;
+            left: 300px;
+            top: -100px;
+         }
+         .name{
+            position: relative;
+            top: 70px;
+            left: 30px;
+         }
+         .button{
+            position: relative;
+            left: 250px; }
+</style>
+
+
+</head>
+<body>
+<form>
+<fieldset class="form"><h1 style="font-size: 50px;margin-left: 70px; margin-top: -10px;">Application form</h1><br></br>
+    <label for="name"> first name</label>
+    <input type="text" id="name"></input>
+    <label for="last name">last name</label>
+    <input type="text" id="last name"></input><br></br><br><br>
+    <label for="mobile number">mobile number</label>
+    <input type="number" id="mobile number"></input>
+    <label for="email" >email id</label>
+    <input type="email" id="email"></input><br></br><br></br>
+     <label for="date of birth">date of birth</label>
+    <input type="date" id="date of birth"></input>
+    <label for="qualification">qualification</label>
+    <select  id="qualification">
+        <option value="btech">btech</option>
+        <option value="mtech">mtech</option>
+        <option value="degree">degree</option>
+        <option value="inter">inter</option></select><br></br>
+        <span class="name">
+        <h2>gender</h2>
+        <label for="female">female</label>
+        <input type="radio" id="female"  name="gender" value="female"></input><br></br>
+        <label for="male">male</label>
+        <input type="radio" id="male" name="gender" value="male"></input><br></br>
+        <label for="others">others</label>
+        <input type="radio" id="others" name="gender" value="others"></input></span> 
+       <div class="vignesh">
+    <h2 >programming languages</h2>
+    <label for="html">html</label>
+    <input type="checkbox" id="html" name="program" value="html"></input><br></br>
+    <label for="css">css</label>
+    <input type="checkbox" id="css" name="program" value="css"></input><br></br>
+    <label for="java">java</label>
+    <input type="checkbox" id="java" name="program" value="java"></input><br></br></div>
+    <div class="button" >
+    <input type="submit" style="margin-left: 30px;height: 30px; width: 70px; margin-top: 50px; background-color: red;">    
+     
+
+
+</fieldset>
+</form></body>
+</html>
